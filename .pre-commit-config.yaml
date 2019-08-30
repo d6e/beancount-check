@@ -1,4 +1,4 @@
 -   repo: .
-    rev: ''  # Use the sha / tag you want to point at
+    rev: ''
     hooks:
     -   id: beancount-check 
