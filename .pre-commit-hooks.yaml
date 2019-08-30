@@ -1,0 +1,8 @@
+-   id: beancount-check
+    name: beancount-check
+    entry: bean-check
+    language: python
+    #types: [beancount]
+    files: .*(.beancount|.ledger)$
+    require_serial: true
+    additional_dependencies: [beancount]
