@@ -2,6 +2,6 @@
     name: beancount-check
     entry: bean-check
     language: python
-    files: .*(.beancount|.ledger)$
+    files: .*(\.bean|\.beancount|\.ledger)$
     require_serial: true
     additional_dependencies: [beancount]
